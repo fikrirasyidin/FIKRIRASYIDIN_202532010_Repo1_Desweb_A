@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jejak Peron - Kirim Cerita</title>
+</head>
+<body>
+    <header>
+        <h1>Kirim Cerita</h1>
+        <p>Bagikan ide atau catatan singkat bertema stasiun.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="arsip.html">Arsip Cerita</a> |
+        <a href="kontribusi.html">Kirim Cerita</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Form Kontribusi</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="judul">Judul cerita:</label><br>
+                    <input type="text" id="judul" name="judul" required>
+                </p>
+
+                <fieldset>
+                    <legend>Kategori cerita:</legend>
+                    <input type="radio" id="suasana" name="kategori" value="suasana" required>
+                    <label for="suasana">Suasana</label>
+
+                    <input type="radio" id="detail" name="kategori" value="detail">
+                    <label for="detail">Detail Stasiun</label>
+
+                    <input type="radio" id="pengalaman" name="kategori" value="pengalaman">
+                    <label for="pengalaman">Pengalaman</label>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="izin" name="izin" required>
+                    <label for="izin">Saya mengizinkan cerita ditampilkan di arsip.</label>
+                </p>
+
+                <p>
+                    <label for="cerita">Isi cerita:</label><br>
+                    <textarea id="cerita" name="cerita" rows="8" cols="50" required></textarea>
+                </p>
+
+                <button type="submit">Kirim Cerita</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Kembali ke <a href="index.html">Beranda Jejak Peron</a>.</p>
+    </footer>
+</body>
+</html>
