@@ -1,0 +1,2 @@
+# FIKRIRASYIDIN_202532010_Repo1_Desweb_A
+Jejak PEron
